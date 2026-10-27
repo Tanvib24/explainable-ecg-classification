@@ -1,0 +1,123 @@
+{
+  "source_fingerprints": {
+    "configs\\protocol.json": "754bfb5cd42ae98da9790d0c92d1936cc2282b35396556f0890bb0ef7bf72dd4",
+    "ecg_project\\models.py": "d5dd295dbc64a0624c8453e5fb2eaaeb8066f517f34fa5c7ac54c52f27e9c129",
+    "ecg_project\\data.py": "019c68c1070e3584446d471b9e8531b2037c48eca9fa5aadf51e94fdf0c67379",
+    "ecg_project\\experiment.py": "2be694c694118076c23d0a2f5c4b89629c0a72871030020ac103889c355b076c",
+    "requirements-lock.txt": "2c1f2c2d147ea103ea640b72642378a71928c078c84086efdccb54e755410f5f"
+  },
+  "protocol": {
+    "protocol_version": "1.0",
+    "dataset": "PTB-XL 1.0.3",
+    "sampling_rate_hz": 100,
+    "input_shape": [
+      12,
+      1000
+    ],
+    "classes": [
+      "NORM",
+      "MI",
+      "STTC",
+      "CD",
+      "HYP"
+    ],
+    "folds": {
+      "train": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "validation": [
+        9
+      ],
+      "test": [
+        10
+      ]
+    },
+    "models": [
+      "compact_cnn",
+      "resnet1d",
+      "inception_time"
+    ],
+    "model_profile": "cpu",
+    "architecture_notes": {
+      "compact_cnn": "64/128/192 channels; kernels 15/9/5; stride 2 per block; global pooling; dense 64 then 5",
+      "resnet1d": "Eight residual basic blocks in four stages; widths 16/32/64/128; stem kernel 7 stride 2 and max pool",
+      "inception_time": "CPU variant: learned depthwise kernel-15 stride-4 stem; six inception modules; 16 filters per branch; kernels 9/19/39; residual connection every 3 modules"
+    },
+    "seeds": [
+      42,
+      123,
+      2026
+    ],
+    "optimizer": "AdamW",
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "dropout": 0.2,
+    "batch_size": 64,
+    "max_epochs": 25,
+    "early_stopping_patience": 5,
+    "minimum_improvement": 0.0001,
+    "checkpoint_metric": "validation macro AUROC",
+    "hyperparameter_policy": "Fixed a priori settings. No hyperparameter search or architecture selection using validation accuracy; widths and stem chosen using synthetic-input CPU timing only. Validation is used for early stopping, thresholds, and logistic C selection.",
+    "loss": "BCEWithLogitsLoss with train-only negative/positive class weights",
+    "ablation": "Unweighted compact CNN using the same seeds and settings; fixed 0.5 versus validation-selected thresholds for each model",
+    "threshold_grid": {
+      "start": 0.05,
+      "stop": 0.95,
+      "step": 0.01,
+      "ties": "larger threshold"
+    },
+    "augmentation": "none",
+    "device": "cpu",
+    "torch_threads": 4,
+    "parallel_training_processes": 3,
+    "bootstrap": {
+      "replicates": 1000,
+      "unit": "patient",
+      "seed": 1997,
+      "checkpoint_seed": 42
+    },
+    "latency": {
+      "batch_size": 1,
+      "warmup": 50,
+      "repeats": 500,
+      "includes": "normalized-tensor model forward only",
+      "excludes": "disk IO, normalization, occlusion"
+    },
+    "occlusion": {
+      "window_samples": 20,
+      "stride_samples": 10,
+      "primary_baseline": "zero after normalization",
+      "sensitivity_baseline": "per-record lead median"
+    },
+    "test_policy": "Do not read test prediction performance until all trained checkpoints, validation thresholds, and model selection are frozen. Evaluate each frozen artifact once; saved predictions support later plots and interval calculations."
+  },
+  "environment": {
+    "python": "3.12.14",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "processor": "Intel64 Family 6 Model 198 Stepping 2, GenuineIntel",
+    "torch_version": "2.14.1+cpu",
+    "cuda_available": false,
+    "device": "cpu",
+    "logical_cpu_count": 14,
+    "packages": {
+      "torch": "2.14.1+cpu",
+      "numpy": "2.5.4",
+      "pandas": "3.1.0",
+      "scikit-learn": "1.9.1",
+      "scipy": "1.18.1",
+      "wfdb": "4.3.1",
+      "matplotlib": "3.11.2"
+    },
+    "torch_threads": 4,
+    "deterministic_algorithms": true
+  },
+  "data_audit_sha256": "37086501d30968a1dfdf2a76df990acd8447cf26ab5944fdd7c34f22fbbed184",
+  "started_utc": "2026-10-27T11:00:26Z"
+}

@@ -1,0 +1,83 @@
+[
+  {
+    "model": "compact_cnn",
+    "threads": 1,
+    "batch_size": 64,
+    "seconds_per_training_step": 0.17417226249926898,
+    "estimated_seconds_per_epoch_17400_records": 47.37485539980116,
+    "parameters": 221573,
+    "purpose": "synthetic-input timing only; no performance metrics"
+  },
+  {
+    "model": "resnet1d",
+    "threads": 1,
+    "batch_size": 64,
+    "seconds_per_training_step": 0.07215804999941611,
+    "estimated_seconds_per_epoch_17400_records": 19.62698959984118,
+    "parameters": 244005,
+    "purpose": "synthetic-input timing only; no performance metrics"
+  },
+  {
+    "model": "inception_time",
+    "threads": 1,
+    "batch_size": 64,
+    "seconds_per_training_step": 0.41034249999938766,
+    "estimated_seconds_per_epoch_17400_records": 111.61315999983344,
+    "parameters": 115729,
+    "purpose": "synthetic-input timing only; no performance metrics"
+  },
+  {
+    "model": "compact_cnn",
+    "threads": 4,
+    "batch_size": 64,
+    "seconds_per_training_step": 0.04567051249978249,
+    "estimated_seconds_per_epoch_17400_records": 12.422379399940837,
+    "parameters": 221573,
+    "purpose": "synthetic-input timing only; no performance metrics"
+  },
+  {
+    "model": "resnet1d",
+    "threads": 4,
+    "batch_size": 64,
+    "seconds_per_training_step": 0.026611225001033745,
+    "estimated_seconds_per_epoch_17400_records": 7.238253200281179,
+    "parameters": 244005,
+    "purpose": "synthetic-input timing only; no performance metrics"
+  },
+  {
+    "model": "inception_time",
+    "threads": 4,
+    "batch_size": 64,
+    "seconds_per_training_step": 0.12721487500130024,
+    "estimated_seconds_per_epoch_17400_records": 34.602446000353666,
+    "parameters": 115729,
+    "purpose": "synthetic-input timing only; no performance metrics"
+  },
+  {
+    "model": "compact_cnn",
+    "threads": 8,
+    "batch_size": 64,
+    "seconds_per_training_step": 0.039941799999724026,
+    "estimated_seconds_per_epoch_17400_records": 10.864169599924935,
+    "parameters": 221573,
+    "purpose": "synthetic-input timing only; no performance metrics"
+  },
+  {
+    "model": "resnet1d",
+    "threads": 8,
+    "batch_size": 64,
+    "seconds_per_training_step": 0.024746650000452064,
+    "estimated_seconds_per_epoch_17400_records": 6.731088800122961,
+    "parameters": 244005,
+    "purpose": "synthetic-input timing only; no performance metrics"
+  },
+  {
+    "model": "inception_time",
+    "threads": 8,
+    "batch_size": 64,
+    "seconds_per_training_step": 0.0986460750009428,
+    "estimated_seconds_per_epoch_17400_records": 26.831732400256442,
+    "parameters": 115729,
+    "purpose": "synthetic-input timing only; no performance metrics"
+  }
+]

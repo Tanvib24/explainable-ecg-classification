@@ -1,0 +1,8 @@
+{
+  "completed_utc": "2026-10-27T12:08:57Z",
+  "runs_evaluated": 12,
+  "frozen_selection_sha256": "23622a6e726c079d71dab5fcfb9b58063043c9c3ff0be40d2aac181f9fdeb80b",
+  "test_records": 2158,
+  "selection_used_test_metrics": false,
+  "all_runs_csv_sha256": "62c4500f22fbe63edbf4d887e8ac79a4ecd69353002464d4bf881a42062dff55"
+}

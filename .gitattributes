@@ -1,0 +1,13 @@
+* text=auto eol=lf
+# Preserve the bytes that the recorded experiment hashes.
+ecg_project/** -text
+configs/protocol.json -text
+requirements-lock.txt -text
+results/** -text
+*.ipynb -text
+*.docx binary
+*.pptx binary
+*.pt binary
+*.npz binary
+*.png binary
+*.joblib binary

@@ -1,0 +1,79 @@
+{
+  "tag": "inception_time_seed123",
+  "model": "inception_time",
+  "seed": 123,
+  "weighted": true,
+  "parameters": 115729,
+  "epochs_run": 16,
+  "best_epoch": 11,
+  "training_seconds": 1090.9635997000005,
+  "thresholds": [
+    0.4000000059604645,
+    0.6700000166893005,
+    0.5,
+    0.6800000071525574,
+    0.7699999809265137
+  ],
+  "validation": {
+    "macro_auroc": 0.9210753905444407,
+    "macro_average_precision": 0.7973474761751237,
+    "macro_f1": 0.7417623146965846,
+    "micro_f1": 0.7714045416316232,
+    "per_class": {
+      "NORM": {
+        "auroc": 0.9387509286489859,
+        "average_precision": 0.9196382503533815,
+        "f1": 0.8568674698795181,
+        "precision": 0.79375,
+        "sensitivity": 0.930890052356021,
+        "support": 955,
+        "prevalence": 0.44501397013664246
+      },
+      "MI": {
+        "auroc": 0.9113186661131867,
+        "average_precision": 0.8029828621690415,
+        "f1": 0.7230769230769231,
+        "precision": 0.6714285714285714,
+        "sensitivity": 0.7833333333333333,
+        "support": 540,
+        "prevalence": 0.2516309320926666
+      },
+      "STTC": {
+        "auroc": 0.9299499943813911,
+        "average_precision": 0.7874562520590352,
+        "f1": 0.7589833479404031,
+        "precision": 0.7063621533442088,
+        "sensitivity": 0.8200757575757576,
+        "support": 528,
+        "prevalence": 0.24603913724422455
+      },
+      "CD": {
+        "auroc": 0.9248022318888461,
+        "average_precision": 0.8405179624539607,
+        "f1": 0.7457962413452027,
+        "precision": 0.7306201550387597,
+        "sensitivity": 0.7616161616161616,
+        "support": 495,
+        "prevalence": 0.23066169023513794
+      },
+      "HYP": {
+        "auroc": 0.900555131689794,
+        "average_precision": 0.6361420538401995,
+        "f1": 0.6240875912408759,
+        "precision": 0.6107142857142858,
+        "sensitivity": 0.6380597014925373,
+        "support": 268,
+        "prevalence": 0.1248835027217865
+      }
+    }
+  },
+  "source_fingerprints": {
+    "configs\\protocol.json": "754bfb5cd42ae98da9790d0c92d1936cc2282b35396556f0890bb0ef7bf72dd4",
+    "ecg_project\\models.py": "d5dd295dbc64a0624c8453e5fb2eaaeb8066f517f34fa5c7ac54c52f27e9c129",
+    "ecg_project\\data.py": "019c68c1070e3584446d471b9e8531b2037c48eca9fa5aadf51e94fdf0c67379",
+    "ecg_project\\experiment.py": "2be694c694118076c23d0a2f5c4b89629c0a72871030020ac103889c355b076c",
+    "requirements-lock.txt": "2c1f2c2d147ea103ea640b72642378a71928c078c84086efdccb54e755410f5f"
+  },
+  "checkpoint_sha256": "7b5352c9d43ac31f4d76135b0393cbc174cf42102c835e4fb35ac9d267c8bb58",
+  "test_evaluated": false
+}

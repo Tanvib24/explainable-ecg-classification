@@ -1,0 +1,79 @@
+{
+  "tag": "compact_cnn_seed123",
+  "model": "compact_cnn",
+  "seed": 123,
+  "weighted": true,
+  "parameters": 221573,
+  "epochs_run": 16,
+  "best_epoch": 11,
+  "training_seconds": 507.7075487000111,
+  "thresholds": [
+    0.5099999904632568,
+    0.6100000143051147,
+    0.6600000262260437,
+    0.8100000023841858,
+    0.7200000286102295
+  ],
+  "validation": {
+    "macro_auroc": 0.9262922022446375,
+    "macro_average_precision": 0.8028795937004034,
+    "macro_f1": 0.7509590342121,
+    "micro_f1": 0.7782222995303532,
+    "per_class": {
+      "NORM": {
+        "auroc": 0.9459313085488459,
+        "average_precision": 0.9298655600747769,
+        "f1": 0.8615692153923038,
+        "precision": 0.8240917782026769,
+        "sensitivity": 0.9026178010471204,
+        "support": 955,
+        "prevalence": 0.44501397013664246
+      },
+      "MI": {
+        "auroc": 0.9182025736820257,
+        "average_precision": 0.81088629697396,
+        "f1": 0.7348416289592761,
+        "precision": 0.7185840707964601,
+        "sensitivity": 0.7518518518518519,
+        "support": 540,
+        "prevalence": 0.2516309320926666
+      },
+      "STTC": {
+        "auroc": 0.9327639809716447,
+        "average_precision": 0.783054374384325,
+        "f1": 0.7604070305272895,
+        "precision": 0.7432188065099458,
+        "sensitivity": 0.7784090909090909,
+        "support": 528,
+        "prevalence": 0.24603913724422455
+      },
+      "CD": {
+        "auroc": 0.9296110713433547,
+        "average_precision": 0.8482189820739093,
+        "f1": 0.7705263157894737,
+        "precision": 0.8043956043956044,
+        "sensitivity": 0.7393939393939394,
+        "support": 495,
+        "prevalence": 0.23066169023513794
+      },
+      "HYP": {
+        "auroc": 0.9049520766773163,
+        "average_precision": 0.642372754995046,
+        "f1": 0.6274509803921569,
+        "precision": 0.5581395348837209,
+        "sensitivity": 0.7164179104477612,
+        "support": 268,
+        "prevalence": 0.1248835027217865
+      }
+    }
+  },
+  "source_fingerprints": {
+    "configs\\protocol.json": "754bfb5cd42ae98da9790d0c92d1936cc2282b35396556f0890bb0ef7bf72dd4",
+    "ecg_project\\models.py": "d5dd295dbc64a0624c8453e5fb2eaaeb8066f517f34fa5c7ac54c52f27e9c129",
+    "ecg_project\\data.py": "019c68c1070e3584446d471b9e8531b2037c48eca9fa5aadf51e94fdf0c67379",
+    "ecg_project\\experiment.py": "2be694c694118076c23d0a2f5c4b89629c0a72871030020ac103889c355b076c",
+    "requirements-lock.txt": "2c1f2c2d147ea103ea640b72642378a71928c078c84086efdccb54e755410f5f"
+  },
+  "checkpoint_sha256": "b7221837a6a1509a41e58470f9ed9256721c12b9cb8826f6593a4a0c345a0ed1",
+  "test_evaluated": false
+}

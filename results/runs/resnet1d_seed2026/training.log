@@ -1,0 +1,15 @@
+resnet1d_seed2026: epoch 1/25; loss=0.6589; val AUROC=0.8987; 13.8s
+resnet1d_seed2026: epoch 2/25; loss=0.5702; val AUROC=0.9068; 13.4s
+resnet1d_seed2026: epoch 3/25; loss=0.5441; val AUROC=0.9072; 13.4s
+resnet1d_seed2026: epoch 4/25; loss=0.5221; val AUROC=0.9148; 14.2s
+resnet1d_seed2026: epoch 5/25; loss=0.5058; val AUROC=0.9125; 14.2s
+resnet1d_seed2026: epoch 6/25; loss=0.4959; val AUROC=0.9172; 14.1s
+resnet1d_seed2026: epoch 7/25; loss=0.4824; val AUROC=0.9143; 14.1s
+resnet1d_seed2026: epoch 8/25; loss=0.4695; val AUROC=0.9165; 13.6s
+resnet1d_seed2026: epoch 9/25; loss=0.4576; val AUROC=0.9138; 13.9s
+resnet1d_seed2026: epoch 10/25; loss=0.4456; val AUROC=0.9182; 14.5s
+resnet1d_seed2026: epoch 11/25; loss=0.4360; val AUROC=0.9113; 14.2s
+resnet1d_seed2026: epoch 12/25; loss=0.4226; val AUROC=0.9129; 13.5s
+resnet1d_seed2026: epoch 13/25; loss=0.4071; val AUROC=0.9141; 14.5s
+resnet1d_seed2026: epoch 14/25; loss=0.4003; val AUROC=0.9123; 14.7s
+resnet1d_seed2026: epoch 15/25; loss=0.3837; val AUROC=0.9135; 14.9s

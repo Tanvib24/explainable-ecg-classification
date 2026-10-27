@@ -1,0 +1,79 @@
+{
+  "tag": "resnet1d_seed123",
+  "model": "resnet1d",
+  "seed": 123,
+  "weighted": true,
+  "parameters": 244005,
+  "epochs_run": 15,
+  "best_epoch": 10,
+  "training_seconds": 210.6029869000049,
+  "thresholds": [
+    0.47999998927116394,
+    0.5899999737739563,
+    0.6800000071525574,
+    0.75,
+    0.7799999713897705
+  ],
+  "validation": {
+    "macro_auroc": 0.9221539419328973,
+    "macro_average_precision": 0.8009022606477831,
+    "macro_f1": 0.7410141272646026,
+    "micro_f1": 0.770329096291137,
+    "per_class": {
+      "NORM": {
+        "auroc": 0.941719088627182,
+        "average_precision": 0.9229777952992765,
+        "f1": 0.8548468106479156,
+        "precision": 0.8214285714285714,
+        "sensitivity": 0.8910994764397906,
+        "support": 955,
+        "prevalence": 0.44501397013664246
+      },
+      "MI": {
+        "auroc": 0.9156461879064618,
+        "average_precision": 0.8091212750071641,
+        "f1": 0.7317518248175182,
+        "precision": 0.7212230215827338,
+        "sensitivity": 0.7425925925925926,
+        "support": 540,
+        "prevalence": 0.2516309320926666
+      },
+      "STTC": {
+        "auroc": 0.9252736730718808,
+        "average_precision": 0.7817159418527533,
+        "f1": 0.7543859649122807,
+        "precision": 0.7026143790849673,
+        "sensitivity": 0.8143939393939394,
+        "support": 528,
+        "prevalence": 0.24603913724422455
+      },
+      "CD": {
+        "auroc": 0.9184320491407104,
+        "average_precision": 0.8325734204463,
+        "f1": 0.7484276729559748,
+        "precision": 0.7777777777777778,
+        "sensitivity": 0.7212121212121212,
+        "support": 495,
+        "prevalence": 0.23066169023513794
+      },
+      "HYP": {
+        "auroc": 0.9096987109182522,
+        "average_precision": 0.6581228706334221,
+        "f1": 0.6156583629893239,
+        "precision": 0.5884353741496599,
+        "sensitivity": 0.6455223880597015,
+        "support": 268,
+        "prevalence": 0.1248835027217865
+      }
+    }
+  },
+  "source_fingerprints": {
+    "configs\\protocol.json": "754bfb5cd42ae98da9790d0c92d1936cc2282b35396556f0890bb0ef7bf72dd4",
+    "ecg_project\\models.py": "d5dd295dbc64a0624c8453e5fb2eaaeb8066f517f34fa5c7ac54c52f27e9c129",
+    "ecg_project\\data.py": "019c68c1070e3584446d471b9e8531b2037c48eca9fa5aadf51e94fdf0c67379",
+    "ecg_project\\experiment.py": "2be694c694118076c23d0a2f5c4b89629c0a72871030020ac103889c355b076c",
+    "requirements-lock.txt": "2c1f2c2d147ea103ea640b72642378a71928c078c84086efdccb54e755410f5f"
+  },
+  "checkpoint_sha256": "45848f3a8db4836bb38b2f8f333f04cc47045bbd015d38965394292c4b8e8f41",
+  "test_evaluated": false
+}

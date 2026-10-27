@@ -1,0 +1,13 @@
+compact_cnn_seed2026: epoch 1/25; loss=0.6831; val AUROC=0.8995; 32.4s
+compact_cnn_seed2026: epoch 2/25; loss=0.5833; val AUROC=0.9004; 32.2s
+compact_cnn_seed2026: epoch 3/25; loss=0.5574; val AUROC=0.9045; 33.2s
+compact_cnn_seed2026: epoch 4/25; loss=0.5342; val AUROC=0.9136; 32.0s
+compact_cnn_seed2026: epoch 5/25; loss=0.5187; val AUROC=0.9158; 31.5s
+compact_cnn_seed2026: epoch 6/25; loss=0.5098; val AUROC=0.9208; 32.3s
+compact_cnn_seed2026: epoch 7/25; loss=0.4995; val AUROC=0.9147; 33.0s
+compact_cnn_seed2026: epoch 8/25; loss=0.4898; val AUROC=0.9255; 30.0s
+compact_cnn_seed2026: epoch 9/25; loss=0.4834; val AUROC=0.9226; 30.1s
+compact_cnn_seed2026: epoch 10/25; loss=0.4765; val AUROC=0.9222; 30.3s
+compact_cnn_seed2026: epoch 11/25; loss=0.4661; val AUROC=0.9214; 33.3s
+compact_cnn_seed2026: epoch 12/25; loss=0.4603; val AUROC=0.9209; 32.3s
+compact_cnn_seed2026: epoch 13/25; loss=0.4547; val AUROC=0.9226; 31.2s

@@ -1,0 +1,8 @@
+{
+  "run": "resnet1d_seed42",
+  "epoch": 12,
+  "max_epochs": 25,
+  "best_validation_macro_auroc": 0.9219111511736579,
+  "run_seconds": 177.20705589999852,
+  "phase": "training"
+}

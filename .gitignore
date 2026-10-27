@@ -1,0 +1,12 @@
+.venv/
+.work/
+data/
+results/**/checkpoints/
+results/runs/*/last.pt
+__pycache__/
+*.pyc
+*.partial
+.ipynb_checkpoints/
+.chart-data-*/
+Healthcare_ECG_Experiments.zip
+Healthcare_ECG_Experiments/

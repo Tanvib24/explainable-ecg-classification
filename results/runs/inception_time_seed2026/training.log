@@ -1,0 +1,13 @@
+inception_time_seed2026: epoch 1/25; loss=0.6791; val AUROC=0.8970; 69.2s
+inception_time_seed2026: epoch 2/25; loss=0.5903; val AUROC=0.9023; 72.2s
+inception_time_seed2026: epoch 3/25; loss=0.5589; val AUROC=0.9090; 70.5s
+inception_time_seed2026: epoch 4/25; loss=0.5331; val AUROC=0.9110; 69.4s
+inception_time_seed2026: epoch 5/25; loss=0.5200; val AUROC=0.9140; 68.9s
+inception_time_seed2026: epoch 6/25; loss=0.5078; val AUROC=0.9163; 68.5s
+inception_time_seed2026: epoch 7/25; loss=0.4952; val AUROC=0.9085; 69.6s
+inception_time_seed2026: epoch 8/25; loss=0.4829; val AUROC=0.9187; 68.4s
+inception_time_seed2026: epoch 9/25; loss=0.4711; val AUROC=0.9128; 67.7s
+inception_time_seed2026: epoch 10/25; loss=0.4590; val AUROC=0.9162; 69.0s
+inception_time_seed2026: epoch 11/25; loss=0.4420; val AUROC=0.9182; 68.5s
+inception_time_seed2026: epoch 12/25; loss=0.4322; val AUROC=0.9174; 67.7s
+inception_time_seed2026: epoch 13/25; loss=0.4218; val AUROC=0.9160; 66.7s

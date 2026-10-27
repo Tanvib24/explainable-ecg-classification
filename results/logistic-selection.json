@@ -1,0 +1,89 @@
+{
+  "C": 0.1,
+  "candidates": [
+    {
+      "C": 0.1,
+      "validation_macro_auroc": 0.8346027523955323,
+      "fit_seconds": 0.3642515999963507
+    },
+    {
+      "C": 1.0,
+      "validation_macro_auroc": 0.8345687648945553,
+      "fit_seconds": 0.5903591999958735
+    },
+    {
+      "C": 10.0,
+      "validation_macro_auroc": 0.8342270766757487,
+      "fit_seconds": 0.9876280000025872
+    }
+  ],
+  "thresholds": [
+    0.46000000834465027,
+    0.5199999809265137,
+    0.49000000953674316,
+    0.6399999856948853,
+    0.6100000143051147
+  ],
+  "validation": {
+    "macro_auroc": 0.8346027523955323,
+    "macro_average_precision": 0.6227400459959489,
+    "macro_f1": 0.6331126248549289,
+    "micro_f1": 0.6580726300896086,
+    "per_class": {
+      "NORM": {
+        "auroc": 0.8594963975013298,
+        "average_precision": 0.79361783774653,
+        "f1": 0.7728119180633147,
+        "precision": 0.6957250628667225,
+        "sensitivity": 0.8691099476439791,
+        "support": 955,
+        "prevalence": 0.44501397013664246
+      },
+      "MI": {
+        "auroc": 0.792367741340344,
+        "average_precision": 0.5407310291184622,
+        "f1": 0.5900383141762452,
+        "precision": 0.5032679738562091,
+        "sensitivity": 0.7129629629629629,
+        "support": 540,
+        "prevalence": 0.2516309320926666
+      },
+      "STTC": {
+        "auroc": 0.8146690171180283,
+        "average_precision": 0.5544179085061384,
+        "f1": 0.5953627524308153,
+        "precision": 0.4919653893695921,
+        "sensitivity": 0.7537878787878788,
+        "support": 528,
+        "prevalence": 0.24603913724422455
+      },
+      "CD": {
+        "auroc": 0.8328714155485808,
+        "average_precision": 0.6719423665797141,
+        "f1": 0.6430868167202572,
+        "precision": 0.684931506849315,
+        "sensitivity": 0.6060606060606061,
+        "support": 495,
+        "prevalence": 0.23066169023513794
+      },
+      "HYP": {
+        "auroc": 0.8736091904693785,
+        "average_precision": 0.5529910880289003,
+        "f1": 0.5642633228840125,
+        "precision": 0.4864864864864865,
+        "sensitivity": 0.6716417910447762,
+        "support": 268,
+        "prevalence": 0.1248835027217865
+      }
+    }
+  },
+  "feature_description": "8 summary statistics per lead, 96 total; preprocessing fitted only to training data",
+  "convergence_iterations": [
+    82,
+    105,
+    99,
+    91,
+    95
+  ],
+  "model_sha256": "d806374afc4adf8546bea1030c1f4f57008a0cb947dce95bdf3478d001e65d0e"
+}

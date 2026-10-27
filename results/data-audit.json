@@ -1,0 +1,1744 @@
+{
+  "original_records": 21799,
+  "eligible_records": 21388,
+  "excluded": [
+    {
+      "ecg_id": 17,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 18,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 20,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 23,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 34,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 144,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 190,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 382,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 385,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 449,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 498,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 858,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 1173,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 1299,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 1399,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 1461,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 1596,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 1641,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 1674,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 1717,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 1773,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 1908,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 2051,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 2090,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 2205,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 2218,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 2430,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 2486,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 2587,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 2592,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 2664,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 2739,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 2828,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 2885,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 3134,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 3319,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 3672,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 3723,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 3793,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 3796,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 3797,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 3893,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 3990,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 4054,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 4117,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 4181,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 4401,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 4408,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 4423,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 4463,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 4492,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 4531,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 4532,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 4637,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 4688,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 4846,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 4874,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 4922,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 4975,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 5068,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 5121,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 5135,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 5136,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 5252,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 5390,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 5445,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 5533,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 5540,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 5544,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 5547,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 5601,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 5634,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 5658,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 5719,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 5756,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 5776,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 5786,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 5787,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 6033,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 6179,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 6205,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 6386,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 6491,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 6561,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 6596,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 6829,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 7120,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 7159,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 7204,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 7215,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 7221,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 7412,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 7445,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 7462,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 7505,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 7510,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 7512,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 7517,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 7567,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 7630,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 7778,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 7783,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 7796,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 7828,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 7866,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 7889,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 8060,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 8215,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 8263,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 8265,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 8319,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 8367,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 8461,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 8479,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 8530,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 8543,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 8634,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 8748,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 8752,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 8872,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 8964,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 8967,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 8970,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 8989,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 9032,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 9046,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 9129,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 9158,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 9182,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 9328,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 9551,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 9557,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 9592,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 9682,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 9824,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 10355,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 10556,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 10564,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 10605,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 10706,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 10723,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 10736,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 10868,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 10876,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 10900,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 10913,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 10933,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 10943,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 10986,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 11080,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 11236,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 11343,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 11371,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 11468,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 11479,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 11487,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 11510,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 11555,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 11626,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 11640,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 11690,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 11700,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 11777,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 11865,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 11879,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 11886,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 11911,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 11914,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 11915,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 11982,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 12000,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 12027,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 12083,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 12085,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 12155,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 12186,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 12205,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 12292,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 12346,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 12369,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 12464,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 12489,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 12516,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 12525,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 12532,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 12537,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 12542,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 12581,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 12602,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 12632,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 12644,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 12687,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 12847,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 12869,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 12879,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 12891,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 12948,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 12953,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 12986,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 13024,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 13131,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 13155,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 13177,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 13184,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 13186,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 13193,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 13196,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 13199,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 13386,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 13442,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 13455,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 13507,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 13539,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 13548,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 13588,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 13629,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 13742,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 13764,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 13803,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 13832,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 13987,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 14221,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 14373,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 14518,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 14609,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 14720,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 14780,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 14792,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 14806,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 14824,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 14839,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 14854,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 14862,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 14956,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 14963,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 14994,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 15026,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 15039,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 15042,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 15045,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 15046,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 15106,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 15217,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 15234,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 15240,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 15241,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 15272,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 15323,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 15336,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 15347,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 15444,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 15457,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 15476,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 15478,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 15486,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 15513,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 15582,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 15585,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 15598,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 15672,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 15834,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 15841,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 15857,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 15867,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 16050,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 16056,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 16076,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 16106,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 16229,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 16245,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 16312,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 16361,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 16376,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 16431,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 16445,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 16488,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 16503,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 16518,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 16582,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 16605,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 16686,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 16731,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 16746,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 16834,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 16835,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 16874,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 16879,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 16995,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 17049,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 17065,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 17066,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 17067,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 17080,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 17093,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 17096,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 17098,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 17106,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 17119,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 17284,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 17384,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 17386,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 17391,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 17457,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 17506,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 17601,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 18008,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 18218,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 18246,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 18247,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 18325,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 18430,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 18439,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 18443,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 18465,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 18476,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 18485,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 18488,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 18599,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 18606,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 18614,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 18714,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 18903,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 18909,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 18928,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 18966,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 19046,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 19093,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 19096,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 19118,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 19170,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 19349,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 19358,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 19418,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 19471,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 19513,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 19540,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 19609,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 19667,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 19716,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 19739,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 19741,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 19769,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 19771,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 19862,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 19896,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 19925,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 19927,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 19941,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 19952,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 19961,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 20013,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 20036,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 20043,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 20051,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 20072,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 20085,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 20095,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 20181,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 20187,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 20210,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 20309,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 20363,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 20406,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 20440,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 20467,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 20505,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 20512,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 20513,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 20604,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 20631,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 20685,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 20693,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 20694,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 20733,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 20768,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 20777,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 20781,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 20807,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 20817,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 20886,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 20927,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 20952,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 21003,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 21006,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 21071,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 21160,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 21168,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 21169,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 21170,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 21171,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 21172,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 21193,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 21310,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 21323,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 21384,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 21408,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 21410,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 21419,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 21478,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 21490,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 21498,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 21517,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 21519,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 21522,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 21541,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 21572,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 21578,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 21594,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 21602,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 21689,
+      "reason": "no_mapped_diagnostic_superclass"
+    },
+    {
+      "ecg_id": 21817,
+      "reason": "no_mapped_diagnostic_superclass"
+    }
+  ],
+  "classes": [
+    "NORM",
+    "MI",
+    "STTC",
+    "CD",
+    "HYP"
+  ],
+  "patient_disjoint": true,
+  "cross_partition_exact_duplicates": 0,
+  "within_partition_exact_duplicates": [],
+  "label_cooccurrence": [
+    [
+      9514,
+      1,
+      33,
+      415,
+      5
+    ],
+    [
+      1,
+      5469,
+      1339,
+      1794,
+      818
+    ],
+    [
+      33,
+      1339,
+      5235,
+      1066,
+      1509
+    ],
+    [
+      415,
+      1794,
+      1066,
+      4898,
+      787
+    ],
+    [
+      5,
+      818,
+      1509,
+      787,
+      2649
+    ]
+  ],
+  "splits": {
+    "train": {
+      "recordings": 17084,
+      "patients": 14823,
+      "positive_labels": {
+        "NORM": 7596,
+        "MI": 4379,
+        "STTC": 4186,
+        "CD": 3907,
+        "HYP": 2119
+      }
+    },
+    "validation": {
+      "recordings": 2146,
+      "patients": 1917,
+      "positive_labels": {
+        "NORM": 955,
+        "MI": 540,
+        "STTC": 528,
+        "CD": 495,
+        "HYP": 268
+      }
+    },
+    "test": {
+      "recordings": 2158,
+      "patients": 1877,
+      "positive_labels": {
+        "NORM": 963,
+        "MI": 550,
+        "STTC": 521,
+        "CD": 496,
+        "HYP": 262
+      }
+    }
+  },
+  "preparation_seconds": 64.08046627044678,
+  "signal_sha256": "630948cdb659b3f8cdab76d993f895de2073bfb7b59f512dbc7cceefed649a09",
+  "label_sha256": "f538068dc6619f91375d46b9bb3ca0747ba22e5f3f7a5d234c3209108e4a3a29",
+  "normalization_fit_partition": "train",
+  "normalization_epsilon": 1e-06,
+  "class_weights": [
+    1.2490785121917725,
+    2.9013473987579346,
+    3.0812230110168457,
+    3.372664451599121,
+    7.062293529510498
+  ]
+}

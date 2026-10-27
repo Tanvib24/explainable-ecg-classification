@@ -1,0 +1,138 @@
+{
+  "compact_cnn_unweighted": {
+    "seeds": [
+      42,
+      123,
+      2026
+    ],
+    "parameters": 221573,
+    "metrics": {
+      "macro_auroc": {
+        "mean": 0.919763605759162,
+        "sample_std": 0.00288375220339449
+      },
+      "macro_average_precision": {
+        "mean": 0.807017856354406,
+        "sample_std": 0.0043382212211425285
+      },
+      "macro_f1": {
+        "mean": 0.7397915043413154,
+        "sample_std": 0.008817193100295951
+      },
+      "micro_f1": {
+        "mean": 0.7715094585334582,
+        "sample_std": 0.006123981529443503
+      },
+      "latency_median_ms": {
+        "mean": 0.636,
+        "sample_std": 0.013387680904473327
+      },
+      "training_seconds": {
+        "mean": 516.1600418999975,
+        "sample_std": 34.27083515116325
+      }
+    }
+  },
+  "compact_cnn": {
+    "seeds": [
+      42,
+      123,
+      2026
+    ],
+    "parameters": 221573,
+    "metrics": {
+      "macro_auroc": {
+        "mean": 0.9195219272735592,
+        "sample_std": 0.0015609227801339353
+      },
+      "macro_average_precision": {
+        "mean": 0.8018243874991103,
+        "sample_std": 0.004529587807684544
+      },
+      "macro_f1": {
+        "mean": 0.7368813716840946,
+        "sample_std": 0.0025443812576551356
+      },
+      "micro_f1": {
+        "mean": 0.7686141291970757,
+        "sample_std": 0.002114143386449774
+      },
+      "latency_median_ms": {
+        "mean": 0.63945,
+        "sample_std": 0.005335962893424186
+      },
+      "training_seconds": {
+        "mean": 495.6727651000062,
+        "sample_std": 74.31368901591559
+      }
+    }
+  },
+  "inception_time": {
+    "seeds": [
+      42,
+      123,
+      2026
+    ],
+    "parameters": 115729,
+    "metrics": {
+      "macro_auroc": {
+        "mean": 0.9141812982758538,
+        "sample_std": 0.00038178256422991827
+      },
+      "macro_average_precision": {
+        "mean": 0.7948771460391953,
+        "sample_std": 0.002251988006426356
+      },
+      "macro_f1": {
+        "mean": 0.7258790282162546,
+        "sample_std": 0.002433905499106968
+      },
+      "micro_f1": {
+        "mean": 0.7586117601491572,
+        "sample_std": 0.0009743193048494434
+      },
+      "latency_median_ms": {
+        "mean": 1.5734833333333331,
+        "sample_std": 0.03583759664560852
+      },
+      "training_seconds": {
+        "mean": 1060.0211209333356,
+        "sample_std": 146.8337704795452
+      }
+    }
+  },
+  "resnet1d": {
+    "seeds": [
+      42,
+      123,
+      2026
+    ],
+    "parameters": 244005,
+    "metrics": {
+      "macro_auroc": {
+        "mean": 0.9140233492976365,
+        "sample_std": 0.0017853754632764986
+      },
+      "macro_average_precision": {
+        "mean": 0.7934529151482715,
+        "sample_std": 0.0028289980072255796
+      },
+      "macro_f1": {
+        "mean": 0.7216946566214201,
+        "sample_std": 0.002222414658628997
+      },
+      "micro_f1": {
+        "mean": 0.7537431329834599,
+        "sample_std": 0.0030766762979706147
+      },
+      "latency_median_ms": {
+        "mean": 0.88745,
+        "sample_std": 0.10270799628071804
+      },
+      "training_seconds": {
+        "mean": 200.36410700000124,
+        "sample_std": 19.260717304718664
+      }
+    }
+  }
+}

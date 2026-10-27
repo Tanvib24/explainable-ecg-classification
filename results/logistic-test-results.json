@@ -1,0 +1,135 @@
+{
+  "tuned_threshold_metrics": {
+    "macro_auroc": 0.817259482321046,
+    "macro_average_precision": 0.6134473845150276,
+    "macro_f1": 0.599801369556455,
+    "micro_f1": 0.6287666977322149,
+    "per_class": {
+      "NORM": {
+        "auroc": 0.8449006547704392,
+        "average_precision": 0.7880337444224165,
+        "f1": 0.7560640732265447,
+        "precision": 0.6759410801963993,
+        "sensitivity": 0.857736240913811,
+        "support": 963,
+        "prevalence": 0.44624653458595276
+      },
+      "MI": {
+        "auroc": 0.7742254635911353,
+        "average_precision": 0.5319736396299568,
+        "f1": 0.5433962264150943,
+        "precision": 0.4645161290322581,
+        "sensitivity": 0.6545454545454545,
+        "support": 550,
+        "prevalence": 0.2548656165599823
+      },
+      "STTC": {
+        "auroc": 0.8011061383997927,
+        "average_precision": 0.5662964598666813,
+        "f1": 0.5707762557077626,
+        "precision": 0.4728877679697352,
+        "sensitivity": 0.7197696737044146,
+        "support": 521,
+        "prevalence": 0.2414272427558899
+      },
+      "CD": {
+        "auroc": 0.8183846221031792,
+        "average_precision": 0.6707049780678263,
+        "f1": 0.6174920969441517,
+        "precision": 0.6467991169977925,
+        "sensitivity": 0.5907258064516129,
+        "support": 496,
+        "prevalence": 0.2298424392938614
+      },
+      "HYP": {
+        "auroc": 0.8476805327406836,
+        "average_precision": 0.5102281005882568,
+        "f1": 0.5112781954887218,
+        "precision": 0.4218362282878412,
+        "sensitivity": 0.648854961832061,
+        "support": 262,
+        "prevalence": 0.12140870839357376
+      }
+    }
+  },
+  "fixed_threshold_metrics": {
+    "macro_auroc": 0.817259482321046,
+    "macro_average_precision": 0.6134473845150276,
+    "macro_f1": 0.5923652932354445,
+    "micro_f1": 0.6174716756112105,
+    "per_class": {
+      "NORM": {
+        "auroc": 0.8449006547704392,
+        "average_precision": 0.7880337444224165,
+        "f1": 0.7511961722488039,
+        "precision": 0.6965394853593612,
+        "sensitivity": 0.8151609553478713,
+        "support": 963,
+        "prevalence": 0.44624653458595276
+      },
+      "MI": {
+        "auroc": 0.7742254635911353,
+        "average_precision": 0.5319736396299568,
+        "f1": 0.5473071324599709,
+        "precision": 0.4563106796116505,
+        "sensitivity": 0.6836363636363636,
+        "support": 550,
+        "prevalence": 0.2548656165599823
+      },
+      "STTC": {
+        "auroc": 0.8011061383997927,
+        "average_precision": 0.5662964598666813,
+        "f1": 0.5718701700154559,
+        "precision": 0.47865459249676584,
+        "sensitivity": 0.710172744721689,
+        "support": 521,
+        "prevalence": 0.2414272427558899
+      },
+      "CD": {
+        "auroc": 0.8183846221031792,
+        "average_precision": 0.6707049780678263,
+        "f1": 0.5863247863247864,
+        "precision": 0.5089020771513353,
+        "sensitivity": 0.6915322580645161,
+        "support": 496,
+        "prevalence": 0.2298424392938614
+      },
+      "HYP": {
+        "auroc": 0.8476805327406836,
+        "average_precision": 0.5102281005882568,
+        "f1": 0.5051282051282051,
+        "precision": 0.3803088803088803,
+        "sensitivity": 0.7519083969465649,
+        "support": 262,
+        "prevalence": 0.12140870839357376
+      }
+    }
+  },
+  "bootstrap": {
+    "unit": "patient",
+    "replicates_requested": 1000,
+    "replicates_valid": 1000,
+    "undefined_replicates": 0,
+    "seed": 1997,
+    "confidence_level": 0.95,
+    "intervals": {
+      "macro_auroc": [
+        0.8054119997356569,
+        0.8290016484235434
+      ],
+      "macro_average_precision": [
+        0.5935732365375648,
+        0.6384518299606108
+      ],
+      "macro_f1": [
+        0.5833968840423146,
+        0.6176112019767649
+      ],
+      "micro_f1": [
+        0.6135990412081546,
+        0.6435433762507492
+      ]
+    }
+  },
+  "note": "Logistic baseline uses 96 waveform summary features; latency is not directly compared to raw-signal CNN forward latency."
+}

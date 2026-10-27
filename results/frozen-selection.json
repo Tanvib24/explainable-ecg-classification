@@ -1,0 +1,963 @@
+{
+  "runs": [
+    {
+      "tag": "compact_cnn_seed42",
+      "model": "compact_cnn",
+      "seed": 42,
+      "weighted": true,
+      "parameters": 221573,
+      "epochs_run": 18,
+      "best_epoch": 13,
+      "training_seconds": 563.2345644000015,
+      "thresholds": [
+        0.6100000143051147,
+        0.44999998807907104,
+        0.6600000262260437,
+        0.5899999737739563,
+        0.6899999976158142
+      ],
+      "validation": {
+        "macro_auroc": 0.9260380056991961,
+        "macro_average_precision": 0.8061153009650923,
+        "macro_f1": 0.7478143590379742,
+        "micro_f1": 0.7777394900068918,
+        "per_class": {
+          "NORM": {
+            "auroc": 0.9463102412948773,
+            "average_precision": 0.9305281348853411,
+            "f1": 0.8616445100935499,
+            "precision": 0.8131970260223048,
+            "sensitivity": 0.9162303664921466,
+            "support": 955,
+            "prevalence": 0.44501397013664246
+          },
+          "MI": {
+            "auroc": 0.9173827314238274,
+            "average_precision": 0.8162518912236496,
+            "f1": 0.7342908438061041,
+            "precision": 0.7125435540069687,
+            "sensitivity": 0.7574074074074074,
+            "support": 540,
+            "prevalence": 0.2516309320926666
+          },
+          "STTC": {
+            "auroc": 0.9293389706708619,
+            "average_precision": 0.7797010463554257,
+            "f1": 0.7553571428571428,
+            "precision": 0.714527027027027,
+            "sensitivity": 0.8011363636363636,
+            "support": 528,
+            "prevalence": 0.24603913724422455
+          },
+          "CD": {
+            "auroc": 0.9289197241953147,
+            "average_precision": 0.8470299190169747,
+            "f1": 0.7690742624618515,
+            "precision": 0.7745901639344263,
+            "sensitivity": 0.7636363636363637,
+            "support": 495,
+            "prevalence": 0.23066169023513794
+          },
+          "HYP": {
+            "auroc": 0.9082383609110994,
+            "average_precision": 0.657065513344071,
+            "f1": 0.6187050359712231,
+            "precision": 0.5972222222222222,
+            "sensitivity": 0.6417910447761194,
+            "support": 268,
+            "prevalence": 0.1248835027217865
+          }
+        }
+      },
+      "source_fingerprints": {
+        "configs\\protocol.json": "754bfb5cd42ae98da9790d0c92d1936cc2282b35396556f0890bb0ef7bf72dd4",
+        "ecg_project\\models.py": "d5dd295dbc64a0624c8453e5fb2eaaeb8066f517f34fa5c7ac54c52f27e9c129",
+        "ecg_project\\data.py": "019c68c1070e3584446d471b9e8531b2037c48eca9fa5aadf51e94fdf0c67379",
+        "ecg_project\\experiment.py": "2be694c694118076c23d0a2f5c4b89629c0a72871030020ac103889c355b076c",
+        "requirements-lock.txt": "2c1f2c2d147ea103ea640b72642378a71928c078c84086efdccb54e755410f5f"
+      },
+      "checkpoint_sha256": "454b004b7f75d681f792445c23120a31dc6166f22389f0d65d6b47413bece8f9",
+      "test_evaluated": false
+    },
+    {
+      "tag": "compact_cnn_seed123",
+      "model": "compact_cnn",
+      "seed": 123,
+      "weighted": true,
+      "parameters": 221573,
+      "epochs_run": 16,
+      "best_epoch": 11,
+      "training_seconds": 507.7075487000111,
+      "thresholds": [
+        0.5099999904632568,
+        0.6100000143051147,
+        0.6600000262260437,
+        0.8100000023841858,
+        0.7200000286102295
+      ],
+      "validation": {
+        "macro_auroc": 0.9262922022446375,
+        "macro_average_precision": 0.8028795937004034,
+        "macro_f1": 0.7509590342121,
+        "micro_f1": 0.7782222995303532,
+        "per_class": {
+          "NORM": {
+            "auroc": 0.9459313085488459,
+            "average_precision": 0.9298655600747769,
+            "f1": 0.8615692153923038,
+            "precision": 0.8240917782026769,
+            "sensitivity": 0.9026178010471204,
+            "support": 955,
+            "prevalence": 0.44501397013664246
+          },
+          "MI": {
+            "auroc": 0.9182025736820257,
+            "average_precision": 0.81088629697396,
+            "f1": 0.7348416289592761,
+            "precision": 0.7185840707964601,
+            "sensitivity": 0.7518518518518519,
+            "support": 540,
+            "prevalence": 0.2516309320926666
+          },
+          "STTC": {
+            "auroc": 0.9327639809716447,
+            "average_precision": 0.783054374384325,
+            "f1": 0.7604070305272895,
+            "precision": 0.7432188065099458,
+            "sensitivity": 0.7784090909090909,
+            "support": 528,
+            "prevalence": 0.24603913724422455
+          },
+          "CD": {
+            "auroc": 0.9296110713433547,
+            "average_precision": 0.8482189820739093,
+            "f1": 0.7705263157894737,
+            "precision": 0.8043956043956044,
+            "sensitivity": 0.7393939393939394,
+            "support": 495,
+            "prevalence": 0.23066169023513794
+          },
+          "HYP": {
+            "auroc": 0.9049520766773163,
+            "average_precision": 0.642372754995046,
+            "f1": 0.6274509803921569,
+            "precision": 0.5581395348837209,
+            "sensitivity": 0.7164179104477612,
+            "support": 268,
+            "prevalence": 0.1248835027217865
+          }
+        }
+      },
+      "source_fingerprints": {
+        "configs\\protocol.json": "754bfb5cd42ae98da9790d0c92d1936cc2282b35396556f0890bb0ef7bf72dd4",
+        "ecg_project\\models.py": "d5dd295dbc64a0624c8453e5fb2eaaeb8066f517f34fa5c7ac54c52f27e9c129",
+        "ecg_project\\data.py": "019c68c1070e3584446d471b9e8531b2037c48eca9fa5aadf51e94fdf0c67379",
+        "ecg_project\\experiment.py": "2be694c694118076c23d0a2f5c4b89629c0a72871030020ac103889c355b076c",
+        "requirements-lock.txt": "2c1f2c2d147ea103ea640b72642378a71928c078c84086efdccb54e755410f5f"
+      },
+      "checkpoint_sha256": "b7221837a6a1509a41e58470f9ed9256721c12b9cb8826f6593a4a0c345a0ed1",
+      "test_evaluated": false
+    },
+    {
+      "tag": "compact_cnn_seed2026",
+      "model": "compact_cnn",
+      "seed": 2026,
+      "weighted": true,
+      "parameters": 221573,
+      "epochs_run": 13,
+      "best_epoch": 8,
+      "training_seconds": 416.07618220000586,
+      "thresholds": [
+        0.4099999964237213,
+        0.6499999761581421,
+        0.6800000071525574,
+        0.7599999904632568,
+        0.7200000286102295
+      ],
+      "validation": {
+        "macro_auroc": 0.9255444338096026,
+        "macro_average_precision": 0.8083681824402899,
+        "macro_f1": 0.7502746779921691,
+        "micro_f1": 0.7780794027824907,
+        "per_class": {
+          "NORM": {
+            "auroc": 0.9466056505818068,
+            "average_precision": 0.9315386771023628,
+            "f1": 0.8628428927680798,
+            "precision": 0.8238095238095238,
+            "sensitivity": 0.9057591623036649,
+            "support": 955,
+            "prevalence": 0.44501397013664246
+          },
+          "MI": {
+            "auroc": 0.912138508371385,
+            "average_precision": 0.7996109763148805,
+            "f1": 0.7238938053097345,
+            "precision": 0.6932203389830508,
+            "sensitivity": 0.7574074074074074,
+            "support": 540,
+            "prevalence": 0.2516309320926666
+          },
+          "STTC": {
+            "auroc": 0.933619648275087,
+            "average_precision": 0.7932146360249488,
+            "f1": 0.7704347826086957,
+            "precision": 0.7122186495176849,
+            "sensitivity": 0.8390151515151515,
+            "support": 528,
+            "prevalence": 0.24603913724422455
+          },
+          "CD": {
+            "auroc": 0.9244118960654393,
+            "average_precision": 0.8472014289750631,
+            "f1": 0.7653359298928919,
+            "precision": 0.7387218045112782,
+            "sensitivity": 0.793939393939394,
+            "support": 495,
+            "prevalence": 0.23066169023513794
+          },
+          "HYP": {
+            "auroc": 0.9109464657542955,
+            "average_precision": 0.6702751937841934,
+            "f1": 0.6288659793814433,
+            "precision": 0.5828025477707006,
+            "sensitivity": 0.6828358208955224,
+            "support": 268,
+            "prevalence": 0.1248835027217865
+          }
+        }
+      },
+      "source_fingerprints": {
+        "configs\\protocol.json": "754bfb5cd42ae98da9790d0c92d1936cc2282b35396556f0890bb0ef7bf72dd4",
+        "ecg_project\\models.py": "d5dd295dbc64a0624c8453e5fb2eaaeb8066f517f34fa5c7ac54c52f27e9c129",
+        "ecg_project\\data.py": "019c68c1070e3584446d471b9e8531b2037c48eca9fa5aadf51e94fdf0c67379",
+        "ecg_project\\experiment.py": "2be694c694118076c23d0a2f5c4b89629c0a72871030020ac103889c355b076c",
+        "requirements-lock.txt": "2c1f2c2d147ea103ea640b72642378a71928c078c84086efdccb54e755410f5f"
+      },
+      "checkpoint_sha256": "fe76dd92cd0ea9a42acd799283b9ef8b9bc1ed52f867056db777fefed7e74ce4",
+      "test_evaluated": false
+    },
+    {
+      "tag": "resnet1d_seed42",
+      "model": "resnet1d",
+      "seed": 42,
+      "weighted": true,
+      "parameters": 244005,
+      "epochs_run": 12,
+      "best_epoch": 7,
+      "training_seconds": 178.1464438999974,
+      "thresholds": [
+        0.5199999809265137,
+        0.7200000286102295,
+        0.6600000262260437,
+        0.46000000834465027,
+        0.7699999809265137
+      ],
+      "validation": {
+        "macro_auroc": 0.9219111511736579,
+        "macro_average_precision": 0.8005841301895584,
+        "macro_f1": 0.7442344353148795,
+        "micro_f1": 0.7718338745513588,
+        "per_class": {
+          "NORM": {
+            "auroc": 0.9408979211450627,
+            "average_precision": 0.9208560611597637,
+            "f1": 0.8560039860488291,
+            "precision": 0.8165399239543726,
+            "sensitivity": 0.8994764397905759,
+            "support": 955,
+            "prevalence": 0.44501397013664246
+          },
+          "MI": {
+            "auroc": 0.9124567593745675,
+            "average_precision": 0.7982551058084596,
+            "f1": 0.7248826291079812,
+            "precision": 0.7352380952380952,
+            "sensitivity": 0.7148148148148148,
+            "support": 540,
+            "prevalence": 0.2516309320926666
+          },
+          "STTC": {
+            "auroc": 0.9311322433232199,
+            "average_precision": 0.7872613677932156,
+            "f1": 0.7564766839378239,
+            "precision": 0.6952380952380952,
+            "sensitivity": 0.8295454545454546,
+            "support": 528,
+            "prevalence": 0.24603913724422455
+          },
+          "CD": {
+            "auroc": 0.9254336214966135,
+            "average_precision": 0.84461455083283,
+            "f1": 0.7575462512171373,
+            "precision": 0.731203007518797,
+            "sensitivity": 0.7858585858585858,
+            "support": 495,
+            "prevalence": 0.23066169023513794
+          },
+          "HYP": {
+            "auroc": 0.8996352105288254,
+            "average_precision": 0.6519335653535229,
+            "f1": 0.6262626262626263,
+            "precision": 0.5705521472392638,
+            "sensitivity": 0.6940298507462687,
+            "support": 268,
+            "prevalence": 0.1248835027217865
+          }
+        }
+      },
+      "source_fingerprints": {
+        "configs\\protocol.json": "754bfb5cd42ae98da9790d0c92d1936cc2282b35396556f0890bb0ef7bf72dd4",
+        "ecg_project\\models.py": "d5dd295dbc64a0624c8453e5fb2eaaeb8066f517f34fa5c7ac54c52f27e9c129",
+        "ecg_project\\data.py": "019c68c1070e3584446d471b9e8531b2037c48eca9fa5aadf51e94fdf0c67379",
+        "ecg_project\\experiment.py": "2be694c694118076c23d0a2f5c4b89629c0a72871030020ac103889c355b076c",
+        "requirements-lock.txt": "2c1f2c2d147ea103ea640b72642378a71928c078c84086efdccb54e755410f5f"
+      },
+      "checkpoint_sha256": "a09c6733be08a9af166b4a1a47bf034967726f072588f3ed7dcee22a1c75912e",
+      "test_evaluated": false
+    },
+    {
+      "tag": "resnet1d_seed123",
+      "model": "resnet1d",
+      "seed": 123,
+      "weighted": true,
+      "parameters": 244005,
+      "epochs_run": 15,
+      "best_epoch": 10,
+      "training_seconds": 210.6029869000049,
+      "thresholds": [
+        0.47999998927116394,
+        0.5899999737739563,
+        0.6800000071525574,
+        0.75,
+        0.7799999713897705
+      ],
+      "validation": {
+        "macro_auroc": 0.9221539419328973,
+        "macro_average_precision": 0.8009022606477831,
+        "macro_f1": 0.7410141272646026,
+        "micro_f1": 0.770329096291137,
+        "per_class": {
+          "NORM": {
+            "auroc": 0.941719088627182,
+            "average_precision": 0.9229777952992765,
+            "f1": 0.8548468106479156,
+            "precision": 0.8214285714285714,
+            "sensitivity": 0.8910994764397906,
+            "support": 955,
+            "prevalence": 0.44501397013664246
+          },
+          "MI": {
+            "auroc": 0.9156461879064618,
+            "average_precision": 0.8091212750071641,
+            "f1": 0.7317518248175182,
+            "precision": 0.7212230215827338,
+            "sensitivity": 0.7425925925925926,
+            "support": 540,
+            "prevalence": 0.2516309320926666
+          },
+          "STTC": {
+            "auroc": 0.9252736730718808,
+            "average_precision": 0.7817159418527533,
+            "f1": 0.7543859649122807,
+            "precision": 0.7026143790849673,
+            "sensitivity": 0.8143939393939394,
+            "support": 528,
+            "prevalence": 0.24603913724422455
+          },
+          "CD": {
+            "auroc": 0.9184320491407104,
+            "average_precision": 0.8325734204463,
+            "f1": 0.7484276729559748,
+            "precision": 0.7777777777777778,
+            "sensitivity": 0.7212121212121212,
+            "support": 495,
+            "prevalence": 0.23066169023513794
+          },
+          "HYP": {
+            "auroc": 0.9096987109182522,
+            "average_precision": 0.6581228706334221,
+            "f1": 0.6156583629893239,
+            "precision": 0.5884353741496599,
+            "sensitivity": 0.6455223880597015,
+            "support": 268,
+            "prevalence": 0.1248835027217865
+          }
+        }
+      },
+      "source_fingerprints": {
+        "configs\\protocol.json": "754bfb5cd42ae98da9790d0c92d1936cc2282b35396556f0890bb0ef7bf72dd4",
+        "ecg_project\\models.py": "d5dd295dbc64a0624c8453e5fb2eaaeb8066f517f34fa5c7ac54c52f27e9c129",
+        "ecg_project\\data.py": "019c68c1070e3584446d471b9e8531b2037c48eca9fa5aadf51e94fdf0c67379",
+        "ecg_project\\experiment.py": "2be694c694118076c23d0a2f5c4b89629c0a72871030020ac103889c355b076c",
+        "requirements-lock.txt": "2c1f2c2d147ea103ea640b72642378a71928c078c84086efdccb54e755410f5f"
+      },
+      "checkpoint_sha256": "45848f3a8db4836bb38b2f8f333f04cc47045bbd015d38965394292c4b8e8f41",
+      "test_evaluated": false
+    },
+    {
+      "tag": "resnet1d_seed2026",
+      "model": "resnet1d",
+      "seed": 2026,
+      "weighted": true,
+      "parameters": 244005,
+      "epochs_run": 15,
+      "best_epoch": 10,
+      "training_seconds": 212.34289020000142,
+      "thresholds": [
+        0.3400000035762787,
+        0.7099999785423279,
+        0.7200000286102295,
+        0.8399999737739563,
+        0.6399999856948853
+      ],
+      "validation": {
+        "macro_auroc": 0.9182286071786987,
+        "macro_average_precision": 0.7956463309960565,
+        "macro_f1": 0.7292558760654348,
+        "micro_f1": 0.7596153846153846,
+        "per_class": {
+          "NORM": {
+            "auroc": 0.9375886337760075,
+            "average_precision": 0.9190634967948047,
+            "f1": 0.8458574181117534,
+            "precision": 0.7832292595896521,
+            "sensitivity": 0.9193717277486911,
+            "support": 955,
+            "prevalence": 0.44501397013664246
+          },
+          "MI": {
+            "auroc": 0.9155389511553895,
+            "average_precision": 0.7990844705566303,
+            "f1": 0.7232876712328767,
+            "precision": 0.7135135135135136,
+            "sensitivity": 0.7333333333333333,
+            "support": 540,
+            "prevalence": 0.2516309320926666
+          },
+          "STTC": {
+            "auroc": 0.9261211465707758,
+            "average_precision": 0.7789428534301169,
+            "f1": 0.7355450236966825,
+            "precision": 0.7362428842504743,
+            "sensitivity": 0.7348484848484849,
+            "support": 528,
+            "prevalence": 0.24603913724422455
+          },
+          "CD": {
+            "auroc": 0.9167593561294348,
+            "average_precision": 0.8338217647292612,
+            "f1": 0.7533539731682146,
+            "precision": 0.770042194092827,
+            "sensitivity": 0.7373737373737373,
+            "support": 495,
+            "prevalence": 0.23066169023513794
+          },
+          "HYP": {
+            "auroc": 0.8951349482618856,
+            "average_precision": 0.6473190694694693,
+            "f1": 0.5882352941176471,
+            "precision": 0.5124653739612188,
+            "sensitivity": 0.6902985074626866,
+            "support": 268,
+            "prevalence": 0.1248835027217865
+          }
+        }
+      },
+      "source_fingerprints": {
+        "configs\\protocol.json": "754bfb5cd42ae98da9790d0c92d1936cc2282b35396556f0890bb0ef7bf72dd4",
+        "ecg_project\\models.py": "d5dd295dbc64a0624c8453e5fb2eaaeb8066f517f34fa5c7ac54c52f27e9c129",
+        "ecg_project\\data.py": "019c68c1070e3584446d471b9e8531b2037c48eca9fa5aadf51e94fdf0c67379",
+        "ecg_project\\experiment.py": "2be694c694118076c23d0a2f5c4b89629c0a72871030020ac103889c355b076c",
+        "requirements-lock.txt": "2c1f2c2d147ea103ea640b72642378a71928c078c84086efdccb54e755410f5f"
+      },
+      "checkpoint_sha256": "745072c35562fd743e37bbcb39a52ef1a692a84497fa43387f2564c323166473",
+      "test_evaluated": false
+    },
+    {
+      "tag": "inception_time_seed42",
+      "model": "inception_time",
+      "seed": 42,
+      "weighted": true,
+      "parameters": 115729,
+      "epochs_run": 18,
+      "best_epoch": 13,
+      "training_seconds": 1188.9177395000006,
+      "thresholds": [
+        0.25,
+        0.6800000071525574,
+        0.7699999809265137,
+        0.44999998807907104,
+        0.7699999809265137
+      ],
+      "validation": {
+        "macro_auroc": 0.9180196159977004,
+        "macro_average_precision": 0.7985769244019244,
+        "macro_f1": 0.7391449435973426,
+        "micro_f1": 0.76822083824272,
+        "per_class": {
+          "NORM": {
+            "auroc": 0.9423455145704476,
+            "average_precision": 0.9205912905864804,
+            "f1": 0.8621190130624092,
+            "precision": 0.8012589928057554,
+            "sensitivity": 0.9329842931937172,
+            "support": 955,
+            "prevalence": 0.44501397013664246
+          },
+          "MI": {
+            "auroc": 0.907452377657857,
+            "average_precision": 0.8017145722152675,
+            "f1": 0.718942731277533,
+            "precision": 0.6857142857142857,
+            "sensitivity": 0.7555555555555555,
+            "support": 540,
+            "prevalence": 0.2516309320926666
+          },
+          "STTC": {
+            "auroc": 0.9217714068996515,
+            "average_precision": 0.7733396320175151,
+            "f1": 0.7462422634836428,
+            "precision": 0.6998341625207297,
+            "sensitivity": 0.7992424242424242,
+            "support": 528,
+            "prevalence": 0.24603913724422455
+          },
+          "CD": {
+            "auroc": 0.9167715923621436,
+            "average_precision": 0.8325157967107285,
+            "f1": 0.745417515274949,
+            "precision": 0.7515400410677618,
+            "sensitivity": 0.7393939393939394,
+            "support": 495,
+            "prevalence": 0.23066169023513794
+          },
+          "HYP": {
+            "auroc": 0.9017571884984026,
+            "average_precision": 0.6647233304796306,
+            "f1": 0.6230031948881789,
+            "precision": 0.5446927374301676,
+            "sensitivity": 0.7276119402985075,
+            "support": 268,
+            "prevalence": 0.1248835027217865
+          }
+        }
+      },
+      "source_fingerprints": {
+        "configs\\protocol.json": "754bfb5cd42ae98da9790d0c92d1936cc2282b35396556f0890bb0ef7bf72dd4",
+        "ecg_project\\models.py": "d5dd295dbc64a0624c8453e5fb2eaaeb8066f517f34fa5c7ac54c52f27e9c129",
+        "ecg_project\\data.py": "019c68c1070e3584446d471b9e8531b2037c48eca9fa5aadf51e94fdf0c67379",
+        "ecg_project\\experiment.py": "2be694c694118076c23d0a2f5c4b89629c0a72871030020ac103889c355b076c",
+        "requirements-lock.txt": "2c1f2c2d147ea103ea640b72642378a71928c078c84086efdccb54e755410f5f"
+      },
+      "checkpoint_sha256": "9c82d43654ffd4b1a7c44868960909f9b4010bbe8cf8a40ffe0d7bf5266e3bd7",
+      "test_evaluated": false
+    },
+    {
+      "tag": "inception_time_seed123",
+      "model": "inception_time",
+      "seed": 123,
+      "weighted": true,
+      "parameters": 115729,
+      "epochs_run": 16,
+      "best_epoch": 11,
+      "training_seconds": 1090.9635997000005,
+      "thresholds": [
+        0.4000000059604645,
+        0.6700000166893005,
+        0.5,
+        0.6800000071525574,
+        0.7699999809265137
+      ],
+      "validation": {
+        "macro_auroc": 0.9210753905444407,
+        "macro_average_precision": 0.7973474761751237,
+        "macro_f1": 0.7417623146965846,
+        "micro_f1": 0.7714045416316232,
+        "per_class": {
+          "NORM": {
+            "auroc": 0.9387509286489859,
+            "average_precision": 0.9196382503533815,
+            "f1": 0.8568674698795181,
+            "precision": 0.79375,
+            "sensitivity": 0.930890052356021,
+            "support": 955,
+            "prevalence": 0.44501397013664246
+          },
+          "MI": {
+            "auroc": 0.9113186661131867,
+            "average_precision": 0.8029828621690415,
+            "f1": 0.7230769230769231,
+            "precision": 0.6714285714285714,
+            "sensitivity": 0.7833333333333333,
+            "support": 540,
+            "prevalence": 0.2516309320926666
+          },
+          "STTC": {
+            "auroc": 0.9299499943813911,
+            "average_precision": 0.7874562520590352,
+            "f1": 0.7589833479404031,
+            "precision": 0.7063621533442088,
+            "sensitivity": 0.8200757575757576,
+            "support": 528,
+            "prevalence": 0.24603913724422455
+          },
+          "CD": {
+            "auroc": 0.9248022318888461,
+            "average_precision": 0.8405179624539607,
+            "f1": 0.7457962413452027,
+            "precision": 0.7306201550387597,
+            "sensitivity": 0.7616161616161616,
+            "support": 495,
+            "prevalence": 0.23066169023513794
+          },
+          "HYP": {
+            "auroc": 0.900555131689794,
+            "average_precision": 0.6361420538401995,
+            "f1": 0.6240875912408759,
+            "precision": 0.6107142857142858,
+            "sensitivity": 0.6380597014925373,
+            "support": 268,
+            "prevalence": 0.1248835027217865
+          }
+        }
+      },
+      "source_fingerprints": {
+        "configs\\protocol.json": "754bfb5cd42ae98da9790d0c92d1936cc2282b35396556f0890bb0ef7bf72dd4",
+        "ecg_project\\models.py": "d5dd295dbc64a0624c8453e5fb2eaaeb8066f517f34fa5c7ac54c52f27e9c129",
+        "ecg_project\\data.py": "019c68c1070e3584446d471b9e8531b2037c48eca9fa5aadf51e94fdf0c67379",
+        "ecg_project\\experiment.py": "2be694c694118076c23d0a2f5c4b89629c0a72871030020ac103889c355b076c",
+        "requirements-lock.txt": "2c1f2c2d147ea103ea640b72642378a71928c078c84086efdccb54e755410f5f"
+      },
+      "checkpoint_sha256": "7b5352c9d43ac31f4d76135b0393cbc174cf42102c835e4fb35ac9d267c8bb58",
+      "test_evaluated": false
+    },
+    {
+      "tag": "inception_time_seed2026",
+      "model": "inception_time",
+      "seed": 2026,
+      "weighted": true,
+      "parameters": 115729,
+      "epochs_run": 13,
+      "best_epoch": 8,
+      "training_seconds": 900.1820236000058,
+      "thresholds": [
+        0.4000000059604645,
+        0.6200000047683716,
+        0.6299999952316284,
+        0.6700000166893005,
+        0.6399999856948853
+      ],
+      "validation": {
+        "macro_auroc": 0.9187045641051469,
+        "macro_average_precision": 0.7960666945996306,
+        "macro_f1": 0.7416609712766604,
+        "micro_f1": 0.7698201199200533,
+        "per_class": {
+          "NORM": {
+            "auroc": 0.9423578232907365,
+            "average_precision": 0.9218622990880098,
+            "f1": 0.8626482213438735,
+            "precision": 0.8166510757717493,
+            "sensitivity": 0.9141361256544502,
+            "support": 955,
+            "prevalence": 0.44501397013664246
+          },
+          "MI": {
+            "auroc": 0.9022888704395554,
+            "average_precision": 0.7803513358948775,
+            "f1": 0.726962457337884,
+            "precision": 0.6740506329113924,
+            "sensitivity": 0.7888888888888889,
+            "support": 540,
+            "prevalence": 0.2516309320926666
+          },
+          "STTC": {
+            "auroc": 0.9325567947709481,
+            "average_precision": 0.7868845173753998,
+            "f1": 0.7605877268798618,
+            "precision": 0.699523052464229,
+            "sensitivity": 0.8333333333333334,
+            "support": 528,
+            "prevalence": 0.24603913724422455
+          },
+          "CD": {
+            "auroc": 0.9076935313155786,
+            "average_precision": 0.8210271457370699,
+            "f1": 0.7284768211920529,
+            "precision": 0.6850533807829181,
+            "sensitivity": 0.7777777777777778,
+            "support": 495,
+            "prevalence": 0.23066169023513794
+          },
+          "HYP": {
+            "auroc": 0.9086258007089155,
+            "average_precision": 0.6702081749027964,
+            "f1": 0.6296296296296297,
+            "precision": 0.5736196319018405,
+            "sensitivity": 0.6977611940298507,
+            "support": 268,
+            "prevalence": 0.1248835027217865
+          }
+        }
+      },
+      "source_fingerprints": {
+        "configs\\protocol.json": "754bfb5cd42ae98da9790d0c92d1936cc2282b35396556f0890bb0ef7bf72dd4",
+        "ecg_project\\models.py": "d5dd295dbc64a0624c8453e5fb2eaaeb8066f517f34fa5c7ac54c52f27e9c129",
+        "ecg_project\\data.py": "019c68c1070e3584446d471b9e8531b2037c48eca9fa5aadf51e94fdf0c67379",
+        "ecg_project\\experiment.py": "2be694c694118076c23d0a2f5c4b89629c0a72871030020ac103889c355b076c",
+        "requirements-lock.txt": "2c1f2c2d147ea103ea640b72642378a71928c078c84086efdccb54e755410f5f"
+      },
+      "checkpoint_sha256": "cf9f5ed0dd2a2550cf5057855c67bb453c9f1d0cbedf735f5464d078a4023622",
+      "test_evaluated": false
+    },
+    {
+      "tag": "compact_cnn_seed42_unweighted",
+      "model": "compact_cnn",
+      "seed": 42,
+      "weighted": false,
+      "parameters": 221573,
+      "epochs_run": 18,
+      "best_epoch": 13,
+      "training_seconds": 552.745150600007,
+      "thresholds": [
+        0.6399999856948853,
+        0.10999999940395355,
+        0.46000000834465027,
+        0.38999998569488525,
+        0.17000000178813934
+      ],
+      "validation": {
+        "macro_auroc": 0.9254604641529879,
+        "macro_average_precision": 0.807071492862762,
+        "macro_f1": 0.7451131648808311,
+        "micro_f1": 0.7746887259082381,
+        "per_class": {
+          "NORM": {
+            "auroc": 0.9466874156522962,
+            "average_precision": 0.9302580526295692,
+            "f1": 0.8664658634538153,
+            "precision": 0.8322082931533269,
+            "sensitivity": 0.9036649214659686,
+            "support": 955,
+            "prevalence": 0.44501397013664246
+          },
+          "MI": {
+            "auroc": 0.9190028135233613,
+            "average_precision": 0.8202450011063209,
+            "f1": 0.7296849087893864,
+            "precision": 0.6606606606606606,
+            "sensitivity": 0.8148148148148148,
+            "support": 540,
+            "prevalence": 0.2516309320926666
+          },
+          "STTC": {
+            "auroc": 0.9320101509532905,
+            "average_precision": 0.786310069855816,
+            "f1": 0.7625,
+            "precision": 0.7212837837837838,
+            "sensitivity": 0.8087121212121212,
+            "support": 528,
+            "prevalence": 0.24603913724422455
+          },
+          "CD": {
+            "auroc": 0.9272188878488092,
+            "average_precision": 0.8486661284723578,
+            "f1": 0.7636363636363637,
+            "precision": 0.8113636363636364,
+            "sensitivity": 0.7212121212121212,
+            "support": 495,
+            "prevalence": 0.23066169023513794
+          },
+          "HYP": {
+            "auroc": 0.9023830527871822,
+            "average_precision": 0.6498782122497464,
+            "f1": 0.6032786885245902,
+            "precision": 0.5380116959064327,
+            "sensitivity": 0.6865671641791045,
+            "support": 268,
+            "prevalence": 0.1248835027217865
+          }
+        }
+      },
+      "source_fingerprints": {
+        "configs\\protocol.json": "754bfb5cd42ae98da9790d0c92d1936cc2282b35396556f0890bb0ef7bf72dd4",
+        "ecg_project\\models.py": "d5dd295dbc64a0624c8453e5fb2eaaeb8066f517f34fa5c7ac54c52f27e9c129",
+        "ecg_project\\data.py": "019c68c1070e3584446d471b9e8531b2037c48eca9fa5aadf51e94fdf0c67379",
+        "ecg_project\\experiment.py": "2be694c694118076c23d0a2f5c4b89629c0a72871030020ac103889c355b076c",
+        "requirements-lock.txt": "2c1f2c2d147ea103ea640b72642378a71928c078c84086efdccb54e755410f5f"
+      },
+      "checkpoint_sha256": "a55ba399ffeaa3adfbdbd22fd149b494940c9bd0512499fc5a23649d6b504f48",
+      "test_evaluated": false
+    },
+    {
+      "tag": "compact_cnn_seed123_unweighted",
+      "model": "compact_cnn",
+      "seed": 123,
+      "weighted": false,
+      "parameters": 221573,
+      "epochs_run": 16,
+      "best_epoch": 11,
+      "training_seconds": 484.80465829999594,
+      "thresholds": [
+        0.41999998688697815,
+        0.3700000047683716,
+        0.3700000047683716,
+        0.5600000023841858,
+        0.27000001072883606
+      ],
+      "validation": {
+        "macro_auroc": 0.9255796132970285,
+        "macro_average_precision": 0.8021123958704669,
+        "macro_f1": 0.7492307189210015,
+        "micro_f1": 0.7791081034183585,
+        "per_class": {
+          "NORM": {
+            "auroc": 0.946699724372585,
+            "average_precision": 0.9300581842492013,
+            "f1": 0.8606476938174681,
+            "precision": 0.8097876269621422,
+            "sensitivity": 0.9183246073298429,
+            "support": 955,
+            "prevalence": 0.44501397013664246
+          },
+          "MI": {
+            "auroc": 0.9152195470688622,
+            "average_precision": 0.8011330935914,
+            "f1": 0.7401433691756273,
+            "precision": 0.7170138888888888,
+            "sensitivity": 0.7648148148148148,
+            "support": 540,
+            "prevalence": 0.2516309320926666
+          },
+          "STTC": {
+            "auroc": 0.9351378432033561,
+            "average_precision": 0.7891595737666504,
+            "f1": 0.7647593097184378,
+            "precision": 0.7347294938917975,
+            "sensitivity": 0.7973484848484849,
+            "support": 528,
+            "prevalence": 0.24603913724422455
+          },
+          "CD": {
+            "auroc": 0.9297811549780054,
+            "average_precision": 0.8529235012688553,
+            "f1": 0.7641408751334045,
+            "precision": 0.8099547511312217,
+            "sensitivity": 0.7232323232323232,
+            "support": 495,
+            "prevalence": 0.23066169023513794
+          },
+          "HYP": {
+            "auroc": 0.9010597968623336,
+            "average_precision": 0.6372876264762274,
+            "f1": 0.6164623467600701,
+            "precision": 0.5808580858085809,
+            "sensitivity": 0.6567164179104478,
+            "support": 268,
+            "prevalence": 0.1248835027217865
+          }
+        }
+      },
+      "source_fingerprints": {
+        "configs\\protocol.json": "754bfb5cd42ae98da9790d0c92d1936cc2282b35396556f0890bb0ef7bf72dd4",
+        "ecg_project\\models.py": "d5dd295dbc64a0624c8453e5fb2eaaeb8066f517f34fa5c7ac54c52f27e9c129",
+        "ecg_project\\data.py": "019c68c1070e3584446d471b9e8531b2037c48eca9fa5aadf51e94fdf0c67379",
+        "ecg_project\\experiment.py": "2be694c694118076c23d0a2f5c4b89629c0a72871030020ac103889c355b076c",
+        "requirements-lock.txt": "2c1f2c2d147ea103ea640b72642378a71928c078c84086efdccb54e755410f5f"
+      },
+      "checkpoint_sha256": "b087f775b8110f3313ff3b11c93c09232f5f002e2baf445afca10afcc91dc41e",
+      "test_evaluated": false
+    },
+    {
+      "tag": "compact_cnn_seed2026_unweighted",
+      "model": "compact_cnn",
+      "seed": 2026,
+      "weighted": false,
+      "parameters": 221573,
+      "epochs_run": 18,
+      "best_epoch": 13,
+      "training_seconds": 510.93031679998967,
+      "thresholds": [
+        0.30000001192092896,
+        0.3400000035762787,
+        0.6000000238418579,
+        0.4099999964237213,
+        0.38999998569488525
+      ],
+      "validation": {
+        "macro_auroc": 0.926254986464569,
+        "macro_average_precision": 0.8089642172406153,
+        "macro_f1": 0.751683362244591,
+        "micro_f1": 0.7805300536982505,
+        "per_class": {
+          "NORM": {
+            "auroc": 0.9459269125773141,
+            "average_precision": 0.9286339460855693,
+            "f1": 0.863681592039801,
+            "precision": 0.8227488151658767,
+            "sensitivity": 0.9089005235602095,
+            "support": 955,
+            "prevalence": 0.44501397013664246
+          },
+          "MI": {
+            "auroc": 0.918480466768138,
+            "average_precision": 0.8182395013174364,
+            "f1": 0.7416520210896309,
+            "precision": 0.705685618729097,
+            "sensitivity": 0.7814814814814814,
+            "support": 540,
+            "prevalence": 0.2516309320926666
+          },
+          "STTC": {
+            "auroc": 0.9328037794508747,
+            "average_precision": 0.7839236438912589,
+            "f1": 0.7612903225806451,
+            "precision": 0.7414721723518851,
+            "sensitivity": 0.7821969696969697,
+            "support": 528,
+            "prevalence": 0.24603913724422455
+          },
+          "CD": {
+            "auroc": 0.9269301127568844,
+            "average_precision": 0.8496411624797875,
+            "f1": 0.7700312174817898,
+            "precision": 0.7939914163090128,
+            "sensitivity": 0.7474747474747475,
+            "support": 495,
+            "prevalence": 0.23066169023513794
+          },
+          "HYP": {
+            "auroc": 0.9071336607696343,
+            "average_precision": 0.6643828324290247,
+            "f1": 0.6217616580310881,
+            "precision": 0.5787781350482315,
+            "sensitivity": 0.6716417910447762,
+            "support": 268,
+            "prevalence": 0.1248835027217865
+          }
+        }
+      },
+      "source_fingerprints": {
+        "configs\\protocol.json": "754bfb5cd42ae98da9790d0c92d1936cc2282b35396556f0890bb0ef7bf72dd4",
+        "ecg_project\\models.py": "d5dd295dbc64a0624c8453e5fb2eaaeb8066f517f34fa5c7ac54c52f27e9c129",
+        "ecg_project\\data.py": "019c68c1070e3584446d471b9e8531b2037c48eca9fa5aadf51e94fdf0c67379",
+        "ecg_project\\experiment.py": "2be694c694118076c23d0a2f5c4b89629c0a72871030020ac103889c355b076c",
+        "requirements-lock.txt": "2c1f2c2d147ea103ea640b72642378a71928c078c84086efdccb54e755410f5f"
+      },
+      "checkpoint_sha256": "768320f7a563ea853a09fedc40400246361cfe30ed54bf0d521c8cf534549baf",
+      "test_evaluated": false
+    }
+  ],
+  "prespecified_explanation_checkpoint": "compact_cnn_seed42",
+  "selection_rule": "highest validation macro AUROC among weighted seed-42 checkpoints",
+  "source_fingerprints": {
+    "configs\\protocol.json": "754bfb5cd42ae98da9790d0c92d1936cc2282b35396556f0890bb0ef7bf72dd4",
+    "ecg_project\\models.py": "d5dd295dbc64a0624c8453e5fb2eaaeb8066f517f34fa5c7ac54c52f27e9c129",
+    "ecg_project\\data.py": "019c68c1070e3584446d471b9e8531b2037c48eca9fa5aadf51e94fdf0c67379",
+    "ecg_project\\experiment.py": "2be694c694118076c23d0a2f5c4b89629c0a72871030020ac103889c355b076c",
+    "requirements-lock.txt": "2c1f2c2d147ea103ea640b72642378a71928c078c84086efdccb54e755410f5f"
+  },
+  "test_performance_accessed": false,
+  "frozen_utc": "2026-10-27T11:39:40Z"
+}

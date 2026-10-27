@@ -1,0 +1,16 @@
+compact_cnn_seed123_unweighted: epoch 1/25; loss=0.3752; val AUROC=0.8900; 28.9s
+compact_cnn_seed123_unweighted: epoch 2/25; loss=0.3160; val AUROC=0.9057; 31.4s
+compact_cnn_seed123_unweighted: epoch 3/25; loss=0.2980; val AUROC=0.9129; 32.7s
+compact_cnn_seed123_unweighted: epoch 4/25; loss=0.2886; val AUROC=0.9147; 31.3s
+compact_cnn_seed123_unweighted: epoch 5/25; loss=0.2806; val AUROC=0.9166; 30.2s
+compact_cnn_seed123_unweighted: epoch 6/25; loss=0.2744; val AUROC=0.9160; 30.4s
+compact_cnn_seed123_unweighted: epoch 7/25; loss=0.2710; val AUROC=0.9184; 33.7s
+compact_cnn_seed123_unweighted: epoch 8/25; loss=0.2654; val AUROC=0.9230; 30.6s
+compact_cnn_seed123_unweighted: epoch 9/25; loss=0.2598; val AUROC=0.9228; 30.5s
+compact_cnn_seed123_unweighted: epoch 10/25; loss=0.2567; val AUROC=0.9216; 30.4s
+compact_cnn_seed123_unweighted: epoch 11/25; loss=0.2503; val AUROC=0.9256; 32.4s
+compact_cnn_seed123_unweighted: epoch 12/25; loss=0.2486; val AUROC=0.9226; 30.5s
+compact_cnn_seed123_unweighted: epoch 13/25; loss=0.2454; val AUROC=0.9249; 30.2s
+compact_cnn_seed123_unweighted: epoch 14/25; loss=0.2439; val AUROC=0.9225; 30.3s
+compact_cnn_seed123_unweighted: epoch 15/25; loss=0.2407; val AUROC=0.9240; 26.5s
+compact_cnn_seed123_unweighted: epoch 16/25; loss=0.2389; val AUROC=0.9238; 23.1s

@@ -1,0 +1,26 @@
+{
+  "output": "C:\\Users\\tanvi.b\\Downloads\\healthcare_report\\Healthcare_ECG_IEEE_Report_Measured.docx",
+  "source_template_sha256": "57e2125b0a04860e103fd634c2b5fd19a7ea571fa59ac577bd97afc73ad99482",
+  "source_unchanged": true,
+  "changed_parts": [
+    "[Content_Types].xml",
+    "word/document.xml",
+    "word/_rels/document.xml.rels",
+    "word/footer1.xml",
+    "docProps/core.xml",
+    "docProps/app.xml"
+  ],
+  "styles_preserved": true,
+  "numbering_preserved": true,
+  "references": 18,
+  "recent_research_papers": 15,
+  "all_references_cited": true,
+  "equations": 6,
+  "figures": 5,
+  "word_count": 2934,
+  "measurement_source": "results/aggregate-results.json",
+  "frozen_selection_sha256": "23622a6e726c079d71dab5fcfb9b58063043c9c3ff0be40d2aac181f9fdeb80b",
+  "rendered_page_count": 6,
+  "all_pages_visually_inspected": true,
+  "render_evidence": ".work/measured-fidelity-final/b_render"
+}

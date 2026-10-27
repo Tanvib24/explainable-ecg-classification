@@ -1,0 +1,11 @@
+{
+  "version": "1.0.3",
+  "source": "https://physionet-open.s3.amazonaws.com/ptb-xl/1.0.3/",
+  "official_page": "https://physionet.org/content/ptb-xl/1.0.3/",
+  "files_verified": 43598,
+  "manifest_sha256": "b7224b92b341511ec3ceb13dc6652079b2c36a06504bcb49506f157f51dc695d",
+  "metadata_sha256": "7600de9c1b27d181d850b3c6038a35d7c3ddb6bb33b702e3a20252a6859d216b",
+  "lookup_sha256": "ad05b0b1fcae83bb1230755ad9cfc7c96f303feddc08a4a9ad5bdc9ca63bac8f",
+  "download_seconds": 601.1482474803925,
+  "waveform_resolution_hz": 100
+}

@@ -1,0 +1,8 @@
+{
+  "run": "compact_cnn_seed2026_unweighted",
+  "epoch": 18,
+  "max_epochs": 25,
+  "best_validation_macro_auroc": 0.926254986464569,
+  "run_seconds": 509.7546704999986,
+  "phase": "training"
+}

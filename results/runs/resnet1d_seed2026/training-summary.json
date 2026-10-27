@@ -1,0 +1,79 @@
+{
+  "tag": "resnet1d_seed2026",
+  "model": "resnet1d",
+  "seed": 2026,
+  "weighted": true,
+  "parameters": 244005,
+  "epochs_run": 15,
+  "best_epoch": 10,
+  "training_seconds": 212.34289020000142,
+  "thresholds": [
+    0.3400000035762787,
+    0.7099999785423279,
+    0.7200000286102295,
+    0.8399999737739563,
+    0.6399999856948853
+  ],
+  "validation": {
+    "macro_auroc": 0.9182286071786987,
+    "macro_average_precision": 0.7956463309960565,
+    "macro_f1": 0.7292558760654348,
+    "micro_f1": 0.7596153846153846,
+    "per_class": {
+      "NORM": {
+        "auroc": 0.9375886337760075,
+        "average_precision": 0.9190634967948047,
+        "f1": 0.8458574181117534,
+        "precision": 0.7832292595896521,
+        "sensitivity": 0.9193717277486911,
+        "support": 955,
+        "prevalence": 0.44501397013664246
+      },
+      "MI": {
+        "auroc": 0.9155389511553895,
+        "average_precision": 0.7990844705566303,
+        "f1": 0.7232876712328767,
+        "precision": 0.7135135135135136,
+        "sensitivity": 0.7333333333333333,
+        "support": 540,
+        "prevalence": 0.2516309320926666
+      },
+      "STTC": {
+        "auroc": 0.9261211465707758,
+        "average_precision": 0.7789428534301169,
+        "f1": 0.7355450236966825,
+        "precision": 0.7362428842504743,
+        "sensitivity": 0.7348484848484849,
+        "support": 528,
+        "prevalence": 0.24603913724422455
+      },
+      "CD": {
+        "auroc": 0.9167593561294348,
+        "average_precision": 0.8338217647292612,
+        "f1": 0.7533539731682146,
+        "precision": 0.770042194092827,
+        "sensitivity": 0.7373737373737373,
+        "support": 495,
+        "prevalence": 0.23066169023513794
+      },
+      "HYP": {
+        "auroc": 0.8951349482618856,
+        "average_precision": 0.6473190694694693,
+        "f1": 0.5882352941176471,
+        "precision": 0.5124653739612188,
+        "sensitivity": 0.6902985074626866,
+        "support": 268,
+        "prevalence": 0.1248835027217865
+      }
+    }
+  },
+  "source_fingerprints": {
+    "configs\\protocol.json": "754bfb5cd42ae98da9790d0c92d1936cc2282b35396556f0890bb0ef7bf72dd4",
+    "ecg_project\\models.py": "d5dd295dbc64a0624c8453e5fb2eaaeb8066f517f34fa5c7ac54c52f27e9c129",
+    "ecg_project\\data.py": "019c68c1070e3584446d471b9e8531b2037c48eca9fa5aadf51e94fdf0c67379",
+    "ecg_project\\experiment.py": "2be694c694118076c23d0a2f5c4b89629c0a72871030020ac103889c355b076c",
+    "requirements-lock.txt": "2c1f2c2d147ea103ea640b72642378a71928c078c84086efdccb54e755410f5f"
+  },
+  "checkpoint_sha256": "745072c35562fd743e37bbcb39a52ef1a692a84497fa43387f2564c323166473",
+  "test_evaluated": false
+}

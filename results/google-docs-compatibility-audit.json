@@ -1,0 +1,14 @@
+{
+  "source": "Healthcare_ECG_IEEE_Report_Measured.docx",
+  "compatibility_copy": "Healthcare_ECG_IEEE_Report_Google_Docs.docx",
+  "all_xml_parts_parse": true,
+  "text_equal_ignoring_whitespace": true,
+  "rendered_page_count": 6,
+  "all_pages_visually_inspected": true,
+  "figures": 5,
+  "native_equations": 6,
+  "tables": 5,
+  "google_docs_live_upload_tested": false,
+  "render_evidence": ".work/google-docs-render",
+  "sha256": "1c1b3826a3e5f554365174a7dfaf59a2341aca5844bb0464bba6a5f1b2ce303e"
+}

@@ -1,0 +1,25 @@
+{
+  "verified_neural_runs": [
+    "compact_cnn_seed42",
+    "compact_cnn_seed123",
+    "compact_cnn_seed2026",
+    "resnet1d_seed42",
+    "resnet1d_seed123",
+    "resnet1d_seed2026",
+    "inception_time_seed42",
+    "inception_time_seed123",
+    "inception_time_seed2026",
+    "compact_cnn_seed42_unweighted",
+    "compact_cnn_seed123_unweighted",
+    "compact_cnn_seed2026_unweighted"
+  ],
+  "source_hashes_match_locked_manifest": true,
+  "checkpoints_match_frozen_hashes": true,
+  "test_ids_and_labels_match_official_fold": true,
+  "saved_test_metrics_recomputed": true,
+  "aggregate_means_and_sample_std_recomputed": true,
+  "selection_frozen_before_test_access": true,
+  "verification_uses_saved_predictions_only": true,
+  "test_records": 2158,
+  "test_patients": 1877
+}

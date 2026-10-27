@@ -1,0 +1,8 @@
+{
+  "run": "inception_time_seed42",
+  "epoch": 18,
+  "max_epochs": 25,
+  "best_validation_macro_auroc": 0.9180196159977004,
+  "run_seconds": 1185.3782389999978,
+  "phase": "training"
+}

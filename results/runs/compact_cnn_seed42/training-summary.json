@@ -1,0 +1,79 @@
+{
+  "tag": "compact_cnn_seed42",
+  "model": "compact_cnn",
+  "seed": 42,
+  "weighted": true,
+  "parameters": 221573,
+  "epochs_run": 18,
+  "best_epoch": 13,
+  "training_seconds": 563.2345644000015,
+  "thresholds": [
+    0.6100000143051147,
+    0.44999998807907104,
+    0.6600000262260437,
+    0.5899999737739563,
+    0.6899999976158142
+  ],
+  "validation": {
+    "macro_auroc": 0.9260380056991961,
+    "macro_average_precision": 0.8061153009650923,
+    "macro_f1": 0.7478143590379742,
+    "micro_f1": 0.7777394900068918,
+    "per_class": {
+      "NORM": {
+        "auroc": 0.9463102412948773,
+        "average_precision": 0.9305281348853411,
+        "f1": 0.8616445100935499,
+        "precision": 0.8131970260223048,
+        "sensitivity": 0.9162303664921466,
+        "support": 955,
+        "prevalence": 0.44501397013664246
+      },
+      "MI": {
+        "auroc": 0.9173827314238274,
+        "average_precision": 0.8162518912236496,
+        "f1": 0.7342908438061041,
+        "precision": 0.7125435540069687,
+        "sensitivity": 0.7574074074074074,
+        "support": 540,
+        "prevalence": 0.2516309320926666
+      },
+      "STTC": {
+        "auroc": 0.9293389706708619,
+        "average_precision": 0.7797010463554257,
+        "f1": 0.7553571428571428,
+        "precision": 0.714527027027027,
+        "sensitivity": 0.8011363636363636,
+        "support": 528,
+        "prevalence": 0.24603913724422455
+      },
+      "CD": {
+        "auroc": 0.9289197241953147,
+        "average_precision": 0.8470299190169747,
+        "f1": 0.7690742624618515,
+        "precision": 0.7745901639344263,
+        "sensitivity": 0.7636363636363637,
+        "support": 495,
+        "prevalence": 0.23066169023513794
+      },
+      "HYP": {
+        "auroc": 0.9082383609110994,
+        "average_precision": 0.657065513344071,
+        "f1": 0.6187050359712231,
+        "precision": 0.5972222222222222,
+        "sensitivity": 0.6417910447761194,
+        "support": 268,
+        "prevalence": 0.1248835027217865
+      }
+    }
+  },
+  "source_fingerprints": {
+    "configs\\protocol.json": "754bfb5cd42ae98da9790d0c92d1936cc2282b35396556f0890bb0ef7bf72dd4",
+    "ecg_project\\models.py": "d5dd295dbc64a0624c8453e5fb2eaaeb8066f517f34fa5c7ac54c52f27e9c129",
+    "ecg_project\\data.py": "019c68c1070e3584446d471b9e8531b2037c48eca9fa5aadf51e94fdf0c67379",
+    "ecg_project\\experiment.py": "2be694c694118076c23d0a2f5c4b89629c0a72871030020ac103889c355b076c",
+    "requirements-lock.txt": "2c1f2c2d147ea103ea640b72642378a71928c078c84086efdccb54e755410f5f"
+  },
+  "checkpoint_sha256": "454b004b7f75d681f792445c23120a31dc6166f22389f0d65d6b47413bece8f9",
+  "test_evaluated": false
+}
